@@ -1,3 +1,38 @@
+header {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+}
+
 body {
-  background-color: red;
+  background-color: white;
+}
+
+section {
+  background-color: white;
+}
+
+.gradient {
+  background-color: #e12071;
+  background-image: linear-gradient(
+    to right,
+    #e12071, #ff4d29
+    );
+}
+
+.white {
+  color: white;
+}
+
+.gray {
+  color: gray;
+}
+
+.orange {
+  color: #ff4d29;
 }

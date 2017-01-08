@@ -1,36 +1,68 @@
 body {
   background-color: white;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Asap', sans-serif;
 }
 
 header {
   background-color: white;
-  font-family: 'Oswald', sans-serif;
-  text-decoration: none;
+  font-family: 'Asap', sans-serif;
+  font-weight: 500;
   color: #ff4d29;
   width: 100%;
-  position: fixed;
-  overflow: auto;
 }
 
-ul {
+#logo-top {
+  display: inline-block;
+  float: left;
+  height: 30px;
+  padding-top: 7px;
+}
+
+#logo-top-scale {
+  height: 100%;
+  width: auto;
+}
+
+#nav-top-left {
+  display: inline-block;
+  float: left;
+}
+
+#menu-top-left li {
+  display: inline-block;
+  font-size: 13px;
+  text-transform: uppercase;
   list-style-type: none;
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-  width: 60px;
+  margin-right: 13px;
+  padding-left: 0px;
 }
 
-/*Having issues with none of the lists displaying inline*/
-li {
-  display: inline;
+ul li:hover {
+  color: #972e2e;
+}
+
+#nav-top-right {
+  display: inline-block;
+  float: right;
+}
+
+#menu-top-right li {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 300;
+  list-style-type: none;
+  margin-right: 13px;
 }
 
 section {
   background-color: white;
 }
 
-.gradient {
+#gradient {
+  overflow: auto;
+  zoom: 1;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #e12071;
   background-image: linear-gradient(
     to right,
@@ -38,20 +70,287 @@ section {
     );
 }
 
+#product {
+  display: inline-block;
+  float: left;
+  margin-left: 10%;
+  width: 40%;
+}
+
+#back {
+  display: block;
+  float:left;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
 .white {
   color: white;
 }
 
-.gray {
-  color: gray;
+#quick-sneakers {
+  clear: left;
+  float: left;
+  width: 100%;
+}
+
+#description {
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 10%;
+  width: 35%;
+}
+
+#main-product-name {
+  color: white;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+#main-product-season {
+  display: block;
+  margin-top: 6.5px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  color: #972e2e;
+  font-weight: 100;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+#main-product-border {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 2px dashed #ae5c5c;
+  border-bottom: 2px dashed #ae5c5c;
+}
+
+#main-product-paragraph {
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#main-product-reviews {
+  display: block;
+  text-align: right;
+  padding-bottom: 10px;
+  font-size: 13px;
+  color: #972e2e;
+  text-decoration: underline;
+}
+
+#main-product-price {
+  display: inline-block;
+  float: left;
+  margin-top: 10px;
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+#main-product-button {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 12px 15px 12px 15px;
+  color: #ff4d29;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .orange {
   color: #ff4d29;
 }
 
+#nav-middle-left {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d0a2a2;
+  margin-left: 10%;
+  width: 80%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+#menu-middle-left li {
+  display: inline-block;
+  float: left;
+  color: #ff4d29;
+  font-size: 17px;
+  font-weight: 500;
+  margin-right: 17px;
+  padding-bottom: 10px;
+  list-style-type: none;
+}
+
+ul li:hover {
+  color: #972e2e;
+}
+
+#reviews {
+  display: inline-block;
+  float: right;
+  color: #ff4d29;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+#content {
+  clear: both;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.content-heading-1 {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.content-paragraph {
+  color: #ae5c5c;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.content-heading-2 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
 /*Having issues with this id tag not showing up*/
 #recommended {
   width: 100%;
-  background-color: pink;
+  background-color: #f3e7e7;
+  text-align: center;
+  font-weight: 400;
+  font-size: 25px;
+  padding: 20px;
+}
+
+.gradient-2 {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #e12071;
+  background-image: linear-gradient(
+    to right,
+    #e12071, #ff4d29
+    );
+}
+
+#recommended-products {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#recommended-product-1 {
+  display: inline-block;
+  width: 29%;
+  margin-right: 5%;
+}
+
+#funny-sneakers {
+    width: 100%;
+    height: auto;
+}
+
+#recommended-product-2 {
+  display: inline-block;
+  width: 29%;
+  margin-right: 5%;
+}
+
+#nimble-sneakers {
+    width: 100%;
+    height: auto;
+}
+
+#recommended-product-3 {
+  display: inline-block;
+  width: 29%;
+}
+
+#cute-sneakers {
+    width: 100%;
+    height: auto;
+}
+
+.recommended-product-name {
+  display: inline-block;
+  color: white;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.recommended-product-price {
+  display: inline-block;
+  float: right;
+  color: white;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.recommended-product-season {
+  display: block;
+  margin: 2px;
+  letter-spacing: 1px;
+  color: #972e2e;
+  font-weight: 100;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+#logo-bottom {
+  display: inline-block;
+  float: left;
+  height: 30px;
+  padding-top: 7px;
+  margin-right: 15px;
+}
+
+#logo-bottom-scale {
+  height: 100%;
+  width: auto;
+}
+
+#nav-bottom-left {
+  display: inline-block;
+  float: left;
+}
+
+#menu-bottom-left li {
+  display: inline-block;
+  color: #ff4d29;
+  font-weight: 500;
+  font-size: 13px;
+  text-transform: uppercase;
+  list-style-type: none;
+  margin-left: 13px;
+}
+
+#nav-bottom-right {
+  display: inline-block;
+  float: right;
+}
+
+#menu-bottom-right li {
+  display: inline-block;
+  font-size: 13px;
+  list-style-type: none;
+  margin-right: 13px;
 }

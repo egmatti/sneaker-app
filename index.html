@@ -2,87 +2,118 @@
 <html>
   <head>
     <title>Sneakers</title>
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Asap:400,500,700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/ab03b8820e.js"></script>
     <link rel="stylesheet" href="styles.css">
+    <style>
+    section {
+      min-width: 100%;
+    }
+    </style>
   </head>
   <body>
     <header>
-      <div>
-        <img src="./images/logo.jpg" alt="Logo">
-        <ul>
-          <li><h3>MEN</h3></li>
-          <li><h3>WOMEN</h3></li>
-          <li><h3>BOYS</h3></li>
-          <li><h3>GIRLS</h3></li>
-          <li><h3>CUSTOMIZE</h3></li>
+      <div id="logo-top">
+        <img src="./images/logo.jpg" alt="Sneaker Shop Logo" id="logo-top-scale">
+      </div>
+      <div id="nav-top-left">
+        <ul id="menu-top-left">
+            <li>Men</li>
+            <li>Women</li>
+            <li>Boys</li>
+            <li>Girls</li>
+            <li>Customize</li>
         </ul>
       </div>
-      <div>
-        <h3>Help</h3>
-        <h3>My Account</h3>
+      <div id="nav-top-right">
+        <ul id="menu-top-right">
+          <li>Help</li>
+          <li>My Account</li>
+          <li><i class="fa fa-shopping-cart" aria-hidden="true"></i>     Shopping Cart</li>
+        </ul>
       </div>
     </header>
-    <section class="gradient">
-      <img src="./images/shoe1.png" alt="Shoe">
-      <h1 class="white">Quick Sneakers</h1>
-      <h4 class="gray">SPRING/SUMMER 2017</h4>
-      <p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <h4>Read the Reviews</h4>
-      <h3 class="white">$120</h3>
+    <section id="gradient">
+      <div id="product">
+        <span id="back"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>     Back to all shoes</span>
+        <img src="./images/shoe1.png" alt="Shoe" id="quick-sneakers">
+      </div>
+      <div id="description">
+        <span id="main-product-name">Quick Sneakers</span>
+        <span id="main-product-season">Spring/Summer 2017</span>
+        <div id="main-product-border">
+          <p id="main-product-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <a id="main-product-reviews">Read the Reviews</a>
+        </div>
+        <span id="main-product-price"><sup>$</sup>120.<sup>00</sup></span>
+        <span id="main-product-button">Buy Now!</span>
+      </div>
     </section>
     <section>
-      <div>
-      <ul>
-        <li><h3 class="orange">Product Details</h3></li>
-        <li><h3 class="orange">Size & Fit</h3></li>
-      </ul>
-      <h6 class="orange">Reviews</h6>
-    </div>
-    <div>
-      <h3>Exciting Topic</h3>
-      <p>Content Here</p>
-      <h4>Exciting Topic</h4>
-      <p>Content Here</p>
-      <br>
-      <h3>Find Your Shoe Size & Fit</h3>
-      <p>Content Here</p>
-      <br>
-      <h3>What Our Customers Are Saying</h3>
-      <p>Don't take our word for it! Read what our customers have been saying about this product. We guarantee you won't be disappointed in your purchase.</p>
-    </div>
-    <div>
-      <h4>Shop Recommended Shoes</h4>
-    </div>
+      <div id="nav-middle-left">
+        <ul id="menu-middle-left">
+          <li>Product Details</li>
+          <li>Size & Fit</li>
+        </ul>
+        <span id="reviews">Reviews     <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+      </div>
+      <div id="content">
+        <span class="content-heading-1">Exciting Topic</span>
+        <p class="content-paragraph">Content Here</p>
+        <span class="content-heading-2">Exciting Topic</span>
+        <p class="content-paragraph">Content Here</p>
+        <br>
+        <span class="content-heading-1">Find Your Shoe Size & Fit</span>
+        <p class="content-paragraph">Content Here</p>
+        <br>
+        <span class="content-heading-1">What Our Customers Are Saying!</span>
+        <p class="content-paragraph">Don't take our word for it! Read what our customers have been saying about this product. We guarantee you won't be disappointed in your purchase.</p>
+      </div>
+      <div id="recommended">
+        <span>Shop Recommended Shoes</span>
+      </div>
   </section>
-  <section class="gradient">
-      <img src="./images/shoe2.png" alt="Shoe">
-      <h3 class="white">Funny Sneakers</h3>
-      <h3 class="white">$120.<sup>00</sup></h3>
-      <h6 class="gray">SPRING/SUMMER 2017</h6>
-      <img src="./images/shoe3.png" alt="Shoe">
-      <h3 class="white">Nimble Sneakers</h3>
-      <h3 class="white">$120.<sup>00</sup></h3>
-      <h6 class="gray">SPRING/SUMMER 2017</h6>
-      <img src="./images/shoe4.png" alt="Shoe">
-      <h3 class="white">Cute Sneakers</h3>
-      <h3 class="white">$120.<sup>00</sup></h3>
-      <h6 class="gray">SPRING/SUMMER 2017</h6>
+  <section class="gradient-2">
+    <div id="recommended-products">
+      <div id="recommended-product-1">
+        <img src="./images/shoe2.png" alt="Funny Sneakers" id="funny-sneakers">
+        <span class="recommended-product-name">Funny Sneakers</span>
+        <span class="recommended-product-price"><sup>$</sup>120.<sup>00</sup></span>
+        <span class="recommended-product-season">Spring/Summer 2017</span>
+      </div>
+      <div id="recommended-product-2">
+        <img src="./images/shoe3.png" alt="Nimble Sneakers" id="nimble-sneakers">
+        <span class="recommended-product-name">Nimble Sneakers</span>
+        <span class="recommended-product-price"><sup>$</sup>120.<sup>00</sup></span>
+        <span class="recommended-product-season">Spring/Summer 2017</span>
+      </div>
+      <div id="recommended-product-3">
+        <img src="./images/shoe4.png" alt="Cute Sneakers" id="cute-sneakers">
+        <span class="recommended-product-name">Cute Sneakers</span>
+        <span class="recommended-product-price"><sup>$</sup>120.<sup>00</sup></span>
+        <span class="recommended-product-season">Spring/Summer 2017</span>
+      </div>
+    </div>
   </section>
   <footer>
-    <div>
-      <img src="./images/logo.jpg" alt="Logo"
-      <ul>
-        <li><h3 class="orange">MEN</h3></li>
-        <li><h3 class="orange">WOMEN</h3></li>
-        <li><h3 class="orange">BOYS</h3></li>
-        <li><h3 class="orange">GIRLS</h3></li>
-        <li><h3 class="orange">CUSTOMIZE</h3></li>
+    <div id="logo-bottom">
+      <img src="./images/logo.jpg" alt="Logo" id="logo-bottom-scale">
+    </div>
+    <div id="nav-bottom-left">
+      <ul id="menu-bottom-left">
+        <li>Men</li>
+        <li>Women</li>
+        <li>Boys</li>
+        <li>Girls</li>
+        <li>Customize</li>
         </ul>
     </div>
-    <div>
-      <a><span>Shipping</h3></span>
-      <a><span>Terms and Condition</h3></span>
-      <span>Copyright 2017. Sneaker Shop, LLC.</span>
+    <div id="nav-bottom-right">
+      <ul id="menu-bottom-right">
+        <li>Shipping</li>
+        <li>Terms and Condition</li>
+        <li>&copy Copyright 2017. Sneaker Shop, LLC.</li>
+      </ul>
     </div>
   </footer>
   </body>
